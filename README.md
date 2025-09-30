@@ -28,3 +28,17 @@ Pygame rendering for visualization (optional).
 Live training plot with Matplotlib showing per-game score and mean score.
 
 Model saving on new high-score.
+
+## How to run
+# create venv
+python3 -m venv .venv
+source .venv/bin/activate    # macOS/Linux
+# .\.venv\Scripts\activate    # Windows
+
+# install dependencies (may ask you to install torch separately)
+pip install -r requirements.txt
+
+# (optional) install torch for CUDA - follow PyTorch site
+
+# run training
+python train.py
