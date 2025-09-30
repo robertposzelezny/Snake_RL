@@ -41,3 +41,5 @@ pip install -r requirements.txt
 
 'run training'
 python train.py
+
+![screenshot](images/image.png)
