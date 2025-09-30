@@ -30,15 +30,14 @@ Live training plot with Matplotlib showing per-game score and mean score.
 Model saving on new high-score.
 
 ## How to run
-# create venv
+'create venv'
 python3 -m venv .venv
-source .venv/bin/activate    # macOS/Linux
-# .\.venv\Scripts\activate    # Windows
 
-# install dependencies (may ask you to install torch separately)
+source .venv/bin/activate    # macOS/Linux
+.\.venv\Scripts\activate    # Windows
+
+'install dependencies'
 pip install -r requirements.txt
 
-# (optional) install torch for CUDA - follow PyTorch site
-
-# run training
+'run training'
 python train.py
